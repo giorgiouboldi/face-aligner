@@ -1,4 +1,4 @@
-# Running the Face Scripts with Anaconda (Beginner Tutorial)
+# Running the Face Scripts with Anaconda (Tutorial)
 
 This tutorial explains how to run two Python scripts that:
 
