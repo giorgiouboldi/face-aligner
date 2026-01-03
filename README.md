@@ -79,6 +79,7 @@ Your folder should look like this:
 face-project/
 ├── face-aligner.py
 ├── face-points.py
+├── face-points-only.py
 ├── shape_predictor_68_face_landmarks.dat
 ├── input/
 │   ├── image1.jpg
@@ -91,7 +92,7 @@ face-project/
 
 ---
 
-## 6. Run the Face Aligner
+## 6. Run the scripts
 
 In the terminal, navigate to your project folder:
 
@@ -135,6 +136,7 @@ This will:
 ```
 faces-points/
 ```
+face-points-only.py will return only the colored points without the faces. 
 
 ---
 
@@ -148,28 +150,3 @@ faces-points/   → portraits with facial landmarks
 ```
 
 These images show how a face is interpreted **not as an identity**, but as a **set of measurable points**.
-
----
-
-## Common Problems (Quick Fixes)
-
-* **Nothing happens** → Check that images are inside `input/`
-* **No face detected** → Use clearer, front-facing portraits
-* **dlib install fails** → Make sure Anaconda is updated:
-
-```bash
-conda update conda
-```
-
----
-
-## Conceptual Note (for students)
-
-What you are running is not *face recognition*.
-It is a **normalization and abstraction process**, similar to how archives:
-
-* standardize objects
-* erase context
-* make comparison possible
-
-You are watching an archive being **produced by code**.
