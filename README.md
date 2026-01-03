@@ -29,7 +29,7 @@ This keeps everything clean and avoids conflicts.
 Open **Anaconda Prompt / Terminal**, then type:
 
 ```bash
-conda create -n face-archive python=3.9
+conda create -n enviroment_name python=3.9
 ```
 
 Press **Y** when asked.
@@ -37,10 +37,10 @@ Press **Y** when asked.
 Activate the environment:
 
 ```bash
-conda activate face-archive
+conda activate enviroment_name
 ```
 
-You should now see `(face-archive)` at the beginning of the line.
+You should now see `(enviroment_name)` at the beginning of the line.
 
 ---
 
